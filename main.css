@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    /* color: #e27602; */
+    box-sizing: border-box;
+}
+
+body{
+    background: #eed9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #151922;
+    margin: 50px;
+    border-left: 50px solid #151922;
+    border-right: 50px solid #151922;
+}
+.container .header{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 41px;
+    padding-bottom: 0;
+}
+
+.container .header .imgBx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .header .imgBx .box{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.container .header .imgBx .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .header .nameTitle{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .header .nameTitle h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #e27602;
+    letter-spacing: 1.6px;
+}
+.container .header .nameTitle h3 span{
+    position: relative;
+    font-size: 0.7em;
+    font-weight: 300;
+    top: -5px;
+}
+.container .content{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .content h3{
+    border-left: 4px solid #e8e4c9;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 300;
+    color: #e27602;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.container .content ul{
+    position: relative;
+    margin: 10px 0;
+}
+.container .content ul li{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    cursor: pointer;
+    display: flex;
+}
+.container .content ul li .text{
+    color: #e8e4c9;
+    font-weight: 300;
+}
+
+.container .content ul.education li{
+    flex-direction: column;
+    margin: 25px 0;    
+}
+h5{
+    color: #ac94f4;
+}
+/* h4.course{
+    color: #e27602;
+} */
+h4{
+    color: #e8e4c9;
+    font-weight: 500;
+    margin: 5px 0;
+}
+h6{
+    font-weight: 300;
+    font-size: 1em;
+    color: #e8e4c9;
+}
+.container .content ul.sems li{
+    flex-direction: column;
+    margin: 25px 0;
+}
+h4.certs{
+    font-weight: 500;
+    margin: 5px 0;
+}
+h6.co{
+    color: #e8e4c9;
+    font-weight: 300;
+    font-size: 1em;
+}
+.language li{
+    flex-direction: column;
+}
+.language li span{
+    font-size: 16px;
+    font-weight: 500;
+}
+p{
+    font-style: 300;
+    color: #e8e4c9;
+}
+.rightSide{
+    padding-left: 40px;   
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;   
+}
+.about .box .years{
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+.about .box .years h5{
+    font-weight: 600;
+}
+.about .box .text h4{
+    font-size: 16px;
+    margin: 0;
+    color: #e27602;
+}
+.myskills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.myskills .box h4{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.myskills .box .bar{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #e3e3e3;
+}
+.myskills .box .bar div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #ac94f4;
+}
+.declaration .box{
+   position: relative;
+   margin: 70px;
+}
+.footer p{
+    color: #ac94f4;
+}
